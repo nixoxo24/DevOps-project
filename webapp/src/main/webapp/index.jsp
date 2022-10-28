@@ -1,437 +1,514 @@
 <!DOCTYPE html>
-<html class="no-js">
-<head >
-<title>::MarketShop::</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>One page website template for multipurpose website</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"/>
+    <meta charset="utf-8" />
+     <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="keywords" content="mz,mzcreatives,creatives,template,website,onepage,webdesign,portfolio,build website,themeforest" />
+    <meta name="description" content="Now you can buy or use template from themeforest design by mzcreatives" />
+    <meta property="og:title" content="One page website template for multipurpose website" />
 
-<link href="1.gif" rel="icon" />
-<link rel="stylesheet" href="css/assets-201603-5.css" type="text/css"/>
-<link rel="stylesheet" href="css/dv3-font-20140421-min.css" type="text/css"/>
 
+     <!---Common css---->
+        <link href="css/common.css" rel="stylesheet" type="text/css" />
+        <!----Media queries css--->
+         <link href="css/style.css" type="text/css" rel="stylesheet" />
+         <link href="css/theme1024.css" rel="stylesheet" type="text/css" />
+        <link href="css/theme990.css" rel="stylesheet" type="text/css" />
+        <link href="css/theme768.css" rel="stylesheet" type="text/css" />
+        <link href="css/theme480.css" rel="stylesheet" type="text/css" />
+        <link href="css/theme320.css" rel="stylesheet" type="text/css" />
+        <link href="css/theme319.css" rel="stylesheet" type="text/css" />
+    <link href="css/quickweb.css" rel="stylesheet" type="text/css" />
+     <link href="fonts/style.css" rel="stylesheet" type="text/css" />   
+   <link href="css/slider_css.css" type="text/css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900' rel='stylesheet' type='text/css'/>
+
+
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/plugin.js"></script>
 </head>
-<body class="home-only">
-<header class="navbar navbar-fixed-top">
-	<div class="navbar-inner">
-		<div class="container clearfix">
-		<div class="topbar-logo-wrapper">
-			<a href="index.html">MarketShop<span class="site-logo"></span></a></div>
-          <div class="pull-right">
-            <ul id="b-nav" class="topbar-nav">
-              <li class="dropdown border-left">
-                <a href="#">
-                  Help
-                </a>
-              </li>
-              <li class="dropdown-single border-left">
-                <a href="daftar.html">
-                  Signup
-                </a>
-              </li>
-              <li class="dropdown dropdown-right border-both">
-                <a href="#" id="login-ddl-link" class="dropdown-toggle" onclick="javascript:return false;" data-toggle="dropdown">
-                  Login
-                </a>
-                <ul class="dropdown-menu dropdown-basic" role="menu" aria-labelledby="dropdownMenu">
-                  <li>
-                    <form id="header-frm-login" class="form-login p-30 box-white box-shadow" method="post" action="#">
-                      <div class="row-fluid control-group mt-10">
-                        <input autofocus="autofocus" type="text" id="inputEmail" placeholder="Email" class="input-login w-300 mb-5" value="">
-                      </div>
-                      <div class="row-fluid control-group">
-                        <input type="password" id="inputPassword" placeholder="Kata Sandi" class="input-login w-300 mb-0" autocomplete="off">
-                      </div>
-                      <div class="row-fluid control-group">
-                        <div class="span7">
-                          <div>
-                            <label class="span12">
-                              <input class="icheck" type="checkbox" name="remember_me">
-                              <ins class="iCheck-helper">
-                              </ins>
-                              <small class="small-gray">
-                                &nbsp;&nbsp;&nbsp;Biarkan saya tetap masuk
-                              </small>
-                            </label>
-                          </div>
-                        </div>
-                        <div class="span5">
-                          <div class="pull-right">
-                            <small>
-                              <a href="lupa-password.html">
-                                Forget Password?
-                              </a>
-                            </small>
-                          </div>
-                        </div>
-                        <button id="global_login_btn" type="submit" class="btn btn-block btn-action btn-login-top mt-10">
-                          Login Now
-                        </button>
-                      </div>
-                      <div>
-                        <div class="line-through">
-                          <p>
-                            <span class="muted">
-                              or
-                            </span>
-                          </p>
-                        </div>
-                        <a href="#">
-                          <button class="btn btn-block btn-facebook mb-10" type="button">
-                            <i class="icon-facebook icon-large">
-                            </i>
-                            &nbsp;&nbsp;&nbsp;Login with Facebook
-                          </button>
-                        </a>
-                        <a href="#">
-                          <button class="btn btn-block btn-buy mb-10" type="button">
-                            <i class="icon-google-plus icon-large">
-                            </i>
-                            &nbsp;&nbsp;&nbsp;Login with Google
-                          </button>
-                        </a>
-                        <a href="#">
-                          <button class="btn btn-block btn-yahoo" type="button">
-                            <i class="icon-yahoo icon-large">
-                            </i>
-                            &nbsp;&nbsp;&nbsp;Login with Yahoo
-                          </button>
-                        </a>
-                      </div>
-                    </form>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-          <form id="navbar-search" action="#" class="navbar-search" method="get">
-            <input type="hidden" name="st" value="product">
-            <div class="search-parent-older">
-              <div class="searchform search-parent">
-                <input autofocus="autofocus" class="input-wrapper" id="search-keyword" type="text" placeholder="Cari produk / toko" autocomplete="off" value="">
-                <div id="div_autocomplete" style="position:relative">
-                </div>
-                <div class="cat-wrapper permanent-active">
-                  <div class=" cat-result-wrapper">
-                    <ul class="inline cat-result">
-                      <li class="cat-result-toggle">
-                        All Category
-                      </li>
-                      <li>
-                        <i class="icon-caret-down">
-                        </i>
-                      </li>
-                    </ul>
-                  </div>
-                  <select name="sc" id="cat-select" class="cat-select absolute">
-                    <option value="0">
-                      All Category
-                    </option>
-                    <option class="ml-10" value="79" >
-                      Fashion &amp; Accessoris
-                    </option>
-                    <option class="ml-10" value="78" >
-                      Clothes
-                    </option>
-                    <option class="ml-10" value="61" >
-                      Beauty
-                    </option>
-                    <option class="ml-10" value="715" >
-                      Healty
-                    </option>
-                    <option class="ml-10" value="984" >
-                      Home
-                    </option>
-                    <option class="ml-10" value="983" >
-                      Kitchen
-                    </option>
-                    <option class="ml-10" value="56" >
-                      Baby
-                    </option>
-                    <option class="ml-10" value="65" >
-                      Handphone &amp; Tablet
-                    </option>
-                    <option class="ml-10" value="288" >
-                      Laptop 
-                    </option>
-                    <option class="ml-10" value="297" >
-                      Computer &amp; Accessoris
-                    </option>
-                    <option class="ml-10" value="60" >
-                      Electronic
-                    </option>
-                    <option class="ml-10" value="578" >
-                      Camera, Photo &amp; Video
-                    </option>
-                    <option class="ml-10" value="63" >
-                      Otomotif
-                    </option>
-                    <option class="ml-10" value="62" >
-                      Sport
-                    </option>
-                    <option class="ml-10" value="642" >
-                      Office &amp; Stationery
-                    </option>
-                    <option class="ml-10" value="54" >
-                      Souvenir
-                    </option>
-                    <option class="ml-10" value="55" >
-                      Hobbies
-                    </option>
-                    <option class="ml-10" value="35" >
-                      Food &amp; Drink
-                    </option>
-                    <option class="ml-10" value="8" >
-                      Book
-                    </option>
-                    <option class="ml-10" value="20" >
-                      Software
-                    </option>
-                    <option class="ml-10" value="57" >
-                      Film, Music &amp; Games
-                    </option>
+<body>
+    <div class="main">
+                    <header class="header">
+                <div class="container">
+                    <div class="col-12">
+                    <div class="col-4 mb-11 logo-set">
+                        <div class="logo"><img src="image/blacklogo.png" /></div>
 
-                  </select>
-                </div>
-                <span class="btn-search-wrapper">
-                  <button class="btn btn-search" type="submit">
-                    <i class="icon-search icon-large orange">
-                    </i>
-                  </button>
-                </span>
-              </div>
+                    </div>
+
+                    <nav class="mob-menu-icon mb-1">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                   </nav>
+
+                        
+                    <nav class="col-8 menu mob-menu pull-right">
+                        
+                         <nav class="mob-menu-icon" style="padding: 26px 26px;width: 100%;box-sizing: border-box;border-bottom:2px solid #1565C0; ">
+                        
+                        <span class="icon-bar slide-icon-menu-color"></span>
+                        <span class="icon-bar slide-icon-menu-color"></span>
+                        <span class="icon-bar slide-icon-menu-color"></span>
+
+                    </nav>
+                       <!-- <div class="menu-item-box center "><a href="#" class="menu_link">Home</a>
+
+                            <div class="sub_cata" style="height: 200px;position: absolute;z-index: 99999;background-color: #000;margin-top: 29px;">
+                                Test sub cata
+                            
+                            </div>
+
+                        </div>-->
+                        <div class="menu-item-box center "><a href="#home" class="menu-link">Home</a></div>
+                        <div class="menu-item-box center "><a href="#about" class="menu-link">About</a></div>
+                        <div class="menu-item-box center "><a href="#services" class="menu-link">Services</a></div>
+                        <div class="menu-item-box center "><a href="#services" class="menu-link">Team</a></div>
+                        <div class="menu-item-box center "><a href="#portfolio" class="menu-link">Portfolio</a></div>
+                        <div class="menu-item-box center "><a href="#testimonial" class="menu-link">Testimonial</a></div>
+                        <div class="menu-item-box center "><a href="#contact" class="menu-link">Contact</a></div>
+                        
+
+                        </nav>
+                        
+
+
+                       
+
+                    </div>
+                        </div>
+            </header>
+        <section class="banner top" id="home" style="background-image:url(image/banner1.jpg);">
+        <div class="texture">
+        <div class="container">
+           <div class="col-5 mb-12 mb-center banner-box">
+               
+               <div class="banner_line1">The great aim of education is not knowledge but action.</div>
+               <div class="banner_brief_text">Education not only broadens the mind but adds the most important component for critical thought, depth.</div>
+               <div    class="mb-center mb-12">
+               <div class="button-1">
+                   <a href="#">Create Your Site</a></div></div>          
+           </div>
+            <div class="col-7 mb-12 banner-image"  style="position:relative;"><!--<img src="image/banner2_image.png"  />--></div>
+        </div>
             </div>
-          </form>
-		</div>
-		</div>
-</header>
+       <!--  <div class="col-12 banner-extra-div color-black-s-light">
+ 
+    </div>-->
+    </section>
 
-<section class="container">
-<div class="row-fluid">
-	<div class="span12 mb-10">
-	<div class="row-fluid">
-	<div class="span6">
-	<div class="text-left">
-		<p class="mt-15 mb-0 font-bold orange fs-16">Search Market Shop</p>
-		<p class="fs-13">Easy, convenient and commission free transactions. <span class="font-bold">FREE!</span></p>
-		<p><a target="_blank" href="daftar.html" class="btn btn-action">Sign Up</a></p>
-	</div>
-	</div>
-	<div class="span6">
-		<a target="_blank" href="#"><img class="pull-right" src="img/shop-banner.png"></a>
-	</div>
-	</div>
-	</div>
-</div>
-</section>
+   
+    <section class="choose-theme section-padding color-white"  id="about">
+        <div class="container">
+            <div class="main-title font-color-m-light">About Us.</div>
+            <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+            <div class="col-8 about-image"><img src="image/22.png" style="" /></div>
+            <div class="col-4 padding-lr" style="box-sizing:border-box;" >
+                <div class="sub-title font-color-s-light">
+                    Everything  you need
+                </div>
 
-<section class="all_cat_container">
-<div class="container">
-	<div class="row-fluid">
-		<div class="span12"></div>
-	</div>
-	<div class="row-fluid">
-	<div class="span12">
-		<ul class="allcat">
-			<li><a href="produk.html" target="_blank"><i class="icon-product-clothing icon-large"></i><span class="title">Clothes </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-fashion icon-large"></i><span class="title">Fashion &amp; Accessoris </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-beauty icon-large"></i><span class="title">Beauty </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-health icon-large"></i><span class="title">Healty </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-home-appliances icon-large"></i><span class="title">Home </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class=" icon-product-kitchen-dining icon-large"></i><span class="title">Kitchen </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-baby icon-large"></i><span class="title">Baby </span></a></li>
-		</ul>
-		<ul class="allcat">
-			<li><a href="produk.html" target="_blank"><i class="icon-product-phone-tablet icon-large"></i><span class="title">Handphone &amp; Tablet </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-notebook icon-large"></i><span class="title">Laptop &amp; Accessoris </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-pc icon-large"></i><span class="title">Computer &amp; Accessoris </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-electronics icon-large"></i><span class="title">Electronic </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-photography icon-large"></i><span class="title">Camera, Foto &amp; Video </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-automotive icon-large"></i><span class="title">Otomotif </span></a></li>
-			<li><a href="produk.html"target="_blank" ><i class="icon-product-sports icon-large"></i><span class="title">Sport </span></a></li>
-		</ul>
-		<ul class="allcat">
-			<li><a href="produk.html" target="_blank"><i class=" icon-product-office-stationery icon-large"></i><span class="title">Office &amp; Stationery </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class=" icon-product-gift icon-large"></i><span class="title">Souvenir, Kado &amp; Hadiah </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-toys-hobbies icon-large"></i><span class="title">Toys &amp; Hobbies </span></a></li>
-			<li><a href="produk.html" target="_blank" ><i class="icon-product-food-beverages icon-large"></i><span class="title">Food &amp; Drink </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-books icon-large"></i><span class="title">Book </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-softwares icon-large"></i><span class="title">Software </span></a></li>
-			<li><a href="produk.html" target="_blank"><i class="icon-product-movies-games-music icon-large"></i><span class="title">Film, Musik &amp; Game </span></a></li>
-		</ul>
-	</div>
-	</div>
-</div>
-</section>
-<section class="container">
-<div class="row-fluid mb-5">
-	<div class="span12">
-		<div class="line-through"><p><span class="font-bold fs-16">Produk Terbaru</span></p></div>
-	</div>
-</div>
-<div class="row-fluid mb-20">
-	<div class="span4">
-		<a aria-hidden="true" tabindex="-1" href="#" class="clearfix display-block">
-			<img alt="Buku Bantal" src="img/jaket-couple.jpg">
-			<div class="clearfix mt-5">
-			<div class="hotlist-left" itemprop="offers" itemscope="" itemtype="#">
-				<div class="mt-5 fs-12 ellipsis">Jacket Couple</div><div>
-				<small class="muted mr-5">Price</small><span class="red fs-14" itemprop="lowPrice">$21</span></div>
-			</div>
-			<div class="hotlist-thumbnail">
-			<ul class="inline pull-right">
-				<li><img src="img/img1.jpg" class="img-40 img-frame"></li>
-				<li><img src="img/img2.jpg" class="img-40 img-frame"></li>
-				<li><img src="img/img3.jpg" class="img-40 img-frame"></li>
-			</ul>
-			</div>
-			</div>
-		</a>
-	</div>
-	<div class="span4">
-		<a aria-hidden="true" tabindex="-1" href="#" class="clearfix display-block">
-		<img src="img/kaos-imlek.jpg">
-		<div class="clearfix mt-5">
-			<div class="hotlist-left" itemprop="offers" itemscope="" itemtype="#">
-			<div class="mt-5 fs-12 ellipsis">Tshirt Red</div>
-			<div>
-				<small class="muted mr-5">Price</small><span class="red fs-14" itemprop="lowPrice">$15</span>
-			</div>
-			</div>
-			<div class="hotlist-thumbnail">
-				<ul class="inline pull-right">
-					<li><img src="img/img4.jpg" class="img-40 img-frame"></li>
-					<li><img src="img/img5.jpg" class="img-40 img-frame"></li>
-					<li><img src="img/img6.jpg" class="img-40 img-frame"></li>
-				</ul>
-			</div>
-		</div>
-		</a>
-	</div>
-	<div class="span4">
-		<a aria-hidden="true" tabindex="-1" href="#" class="clearfix display-block">
-			<img src="img/screen-guard-xiaomi-redmi-note.jpg">
-			<div class="clearfix mt-5">
-			<div class="hotlist-left" itemprop="offers" itemscope="" itemtype="#">
-				<div class="mt-5 fs-12 ellipsis">Screen Guard Xiaomi</div>
-				<div>
-					<small class="muted mr-5">Price</small><span class="red fs-14" itemprop="lowPrice">$8</span>
-				</div>
-			</div>
-			<div class="hotlist-thumbnail">
-			<ul class="inline pull-right">
-				<li><img src="img/img7.jpg" class="img-40 img-frame"></li>
-				<li><img src="img/img8.jpg" class="img-40 img-frame"></li>
-				<li><img src="img/img9.jpg" class="img-40 img-frame"></li>
-			</ul>
-			</div>
-			</div>
-		</a>
-	</div>
-</div>
-<div class="row-fluid mb-20">
-	<div class="span4">
-		<a aria-hidden="true" tabindex="-1" href="#" class="clearfix display-block">
-		<img src="img/jaket-parka.jpg">
-		<div class="clearfix mt-5">
-			<div class="hotlist-left" itemprop="offers" itemscope="" itemtype="#">
-				<div class="mt-5 fs-12 ellipsis">Jacket</div>
-				<div>
-					<small class="muted mr-5">Price</small><span class="red fs-14" itemprop="lowPrice">$8</span>
-				</div>
-			</div>
-			<div class="hotlist-thumbnail">
-				<ul class="inline pull-right">
-					<li><img src="img/img10.jpg" class="img-40 img-frame"></li>
-					<li><img src="img/img11.jpg" class="img-40 img-frame"></li>
-					<li><img src="img/img12.jpg" class="img-40 img-frame"></li>
-				</ul>
-			</div>
-		</div>
-		</a>
-	</div>
-	<div class="span4">
-		<a aria-hidden="true" tabindex="-1" href="#g" class="clearfix display-block">
-			<img src="img/charger-smartphone-samsung.jpg">
-			<div class="clearfix mt-5">
-			<div class="hotlist-left" itemprop="offers" >
-				<div class="mt-5 fs-12 ellipsis">Charger Smartphone</div><div>
-				<small class="muted mr-5">Price</small>
-				<span class="red fs-14" itemprop="lowPrice">$10</span></div>
-			</div>
-			<div class="hotlist-thumbnail">
-				<ul class="inline pull-right">
-					<li><img src="img/img13.jpg" class="img-40 img-frame"></li>
-					<li><img src="img/img14.jpg" class="img-40 img-frame"></li>
-					<li><img src="img/img15.jpg" class="img-40 img-frame"></li>
-				</ul>
-			</div>
-			</div>
-		</a>
-	</div>
-	<div class="span4">
-		<a aria-hidden="true" tabindex="-1" href="#" class="clearfix display-block">
-			<img src="img/boneka-jari.jpg">
-			<div class="clearfix mt-5">
-				<div class="hotlist-left" itemprop="offers" itemscope="" itemtype="#">
-					<div class="mt-5 fs-12 ellipsis">Doll</div>
-					<div>
-						<small class="muted mr-5">Price</small><span class="red fs-14" itemprop="lowPrice">$10</span>
-					</div>
-				</div>
-			<div class="hotlist-thumbnail">
-			<ul class="inline pull-right">
-				<li><img src="img/img16.jpg" class="img-40 img-frame"></li>
-				<li><img src="img/img17.jpg" class="img-40 img-frame"></li>
-				<li><img src="img/img18.jpg" class="img-40 img-frame"></li>
-			</ul>
-			</div>
-			</div>
-		</a>
-	</div>
-</div><hr/>
+                <div class="content-box" style="">                    Whether you need simple pages, striking galleries, a professional blog, or an online store, it's all included with your Squarespace website. Best of all, everything is mobile-ready right from the start.
+                </div>
+                <a href="#services"><div class="view-template" >View More</div></a>
+            </div>
+       
+            </div>
 
-</section>
+    </section>
+    <section class="multiple-template section-padding color-light-white" id="portfolio">
+                <div class="container">
+                    <div class="main-title font-color-s-light">Our Example</div>
+                    <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+
+                   
+                    
+                    <div class="col-4" style="padding:5px;">
+                   <div style="height:235px;border:1px solid #f5f5f5;border-radius:3px;box-sizing:border-box">
+                    <div class="template-header" style="padding: 10px 0px;background-color: rgb(255, 255, 255);border-bottom: 1px solid rgb(222, 222, 222)">
+                        <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:10px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                        <div style="clear:both"></div>
+                    </div>
+
+                        <div class="temp-data-box" style="height:210px;background-color:#fff;position:relative;overflow:hidden; background-image:url(image/temp1.png);background-position:center 0px;background-size:cover;">
+
+                            <!--<img src="image/temp1.jpg" style="width:100%;" />-->
+                            <div class="temp-data-box-overlay" style="position:absolute;top:0px;left:0px;background-color:rgba(0, 0, 0, 0.5);width:100%;height:100%;text-align:center;">
+                                <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
+                                <a href="#"><span class="button-2   ">
+                                    View Template
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-4" style="padding:5px;">
+                   <div style="height:235px;border:1px solid #f5f5f5;border-radius:3px;box-sizing:border-box">
+                    <div class="template-header" style="padding: 10px 0px;background-color: rgb(255, 255, 255);border-bottom: 1px solid rgb(222, 222, 222)">
+                        <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:10px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                        <div style="clear:both"></div>
+                    </div>
+
+                        <div class="temp-data-box" style="height:210px;background-color:#fff;position:relative;overflow:hidden; background-image:url(image/temp1.png);background-position:center 0px;background-size:cover;">
+
+                        <!--    <img src="image/temp1.jpg" style="width:100%;" />-->
+                            <div class="temp-data-box-overlay" style="position:absolute;top:0px;left:0px;background-color:rgba(0, 0, 0, 0.5);width:100%;height:100%;text-align:center;">
+                                <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
+                                <a href="#"><span class="button-2   ">
+                                    View Template
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-4" style="padding:5px;">
+                   <div style="height:235px;border:1px solid #f5f5f5;border-radius:3px;box-sizing:border-box">
+                    <div class="template-header" style="padding: 10px 0px;background-color: rgb(255, 255, 255);border-bottom: 1px solid rgb(222, 222, 222)">
+                        <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:10px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                        <div style="clear:both"></div>
+                    </div>
+
+                        <div class="temp-data-box" style="height:210px;background-color:#fff;position:relative;overflow:hidden; background-image:url(image/temp1.png);background-position:center 0px;background-size:cover;">
+
+                            <!--<img src="image/temp1.jpg" style="width:100%;" />-->
+                            <div class="temp-data-box-overlay" style="position:absolute;top:0px;left:0px;background-color:rgba(0, 0, 0, 0.5);width:100%;height:100%;text-align:center;">
+                                <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
+                                <a href="#"><span class="button-2   ">
+                                    View Template
+                                </span></a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                  
+
+               </div>
+
+    </section>
+
+    <section class="call-action section-padding color-green">
+        <div class="container">
+          <div class="col-8">
+              <div class="call-title">Get a new way for growing your business!</div>
+          </div>
+          <div class="col-4 padding-tb">
+              <div class="call-action-but" style="text-align:center;"><a href="#">Get a Quote</a></div>
+          </div>
+        </div>
+    </section>
 
 
-<footer class="footer-wrapper">
-	<div class="container footer-additional">
-	  <div class="row-fluid">
-		<div class="span4">
-		</div>
-		<div class="span4 text-center">
-		  <div>
-			<small class="muted">
-			  2009 - 2015 &copy; MarketShop
-			</small>
-		  </div>
-		</div>
-		<div class="span4">
-		</div>
-	  </div>
-	</div>
-</footer>
+    <section class="service section-padding color-white" id="services">
+        <div class="container">
+                    <div class="main-title font-color-m-light">Servcies.</div>
+            <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+            <div class="service-box">
+            <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-mail-alt"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Domain + Email</div>
+                        <div class="feature-content">Lorem Ipsum is simply dummy text of the printing and type setting industry.</div>
+                    </div>
+                    
+                
+            </div>
+            <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-cloudapp"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Web Hosting</div>
+                        <div class="feature-content">Lorem Ipsum is simply dummy text of the printing and type setting industry.</div>
+                    </div>
+                    
+                
+            </div>
+           <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-code"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Website Customization</div>
+                        <div class="feature-content">Lorem Ipsum is simply dummy text of the printing and type setting industry.</div>
+                    </div>
+                    
+                
+            </div>
+                 <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-chart-bar"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Search Engine Optimization</div>
+                        <div class="feature-content">Lorem Ipsum is simply dummy text of the printing and type setting industry.</div>
+                    </div>
+                    
+                
+            </div>
+            <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-monitor"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Resposive Design</div>
+                        <div class="feature-content">Lorem Ipsum is simply dummy text of the printing and type setting industry.</div>
+                    </div>
+                    
+                
+            </div>
+           <div class="col-4 mb-12 padding-tblr margin-bottom-30">
+                    <div class="col-3 mb-2 service-icon">
+                        <i class="quickweb-icon-lock"></i>
+                    </div>
+                    <div class="col-9 mb-10">
+                        <div class="feature-name">Secure and Reliable</div>
+                        <div class="feature-content">Lorem Ipsum is simply dummy text of the printing and type setting industry.</div>
+                    </div>
+                    
+                
+            </div>
+                </div>
+        </div>
+    </section>
 
-<div class="jqmWindow" id="dialog">
-	<div class="jqm-inner">
-	<div class="dialog-header"><div class="dialog-header_title"></div><a href="javascript:void(0);" class="dialog-close jqmClose">
-		<i class="icon-remove"></i></a>
-	</div>
-	<div id="dc" class="dialog-content"><div class="container-fluid"><div id="rf" class="row-fluid">
-	</div></div>
-	</div>
-	</div><div>&nbsp;</div>
-</div>
+    <section class="team section-padding color-light-white" id="team">
+        <div class="container">
+           <div class="main-title font-color-m-light">Our Creative Mind</div>
+            <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+      
+            
+              <div class="col-4 padding-lr team-member">
+                  <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/team4.jpg);"><!--<img src="image/team4.jpg" />-->
+                      <div class="team-overlay">
 
-<div id="cover" style="display: none; width: 800px; height: 600px;"></div>
-<div>
-<iframe name="fra_app" id="fra_app" style="display: none; height: 200px; bottom:55px; left:5px; width:970px; position: fixed; margin: auto; background: #EFEFEF; border: 1px solid #303030; overflow: visible; z-index: 101;">
-</iframe>
-</div>
-<script src="js/assets-1.js" type="text/javascript"></script>
-<noscript><img src="#" style="display:none" height="1" width="1"/></noscript>
-<script type="text/javascript" src="js/conversion.js"></script>
-<noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" src="#"/></div></noscript>
+                          <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
+                          <div class="social-link"  style="vertical-align: middle;display: inline-block;">
+                             <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                <div class="team-name">Mike Bradshaw</div>
+                <div class="team-position">Ceo / founder</div>
+            </div>
+            <div class="col-4 padding-lr team-member" >
+                 <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/team2.jpg);"><!--<img src="image/team2.jpg" />-->
+                <div class="team-overlay">
 
+                          <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
+                          <div class="social-link"  style="vertical-align: middle;display: inline-block;">
+                             <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
+                          </div>
+                      </div>
+                 </div>
+              <div class="team-name" style="">micheal waugh</div>
+                <div class="team-position">co - founder</div>
+            </div>
+           
+          <div class="col-4 padding-lr team-member">
+                <div class="team-image" style="position:relative;overflow:hidden;text-align:center;position:relative;background-image:url(image/team1.jpg);"><!--<img src="image/team1.jpg" />-->
+                <div class="team-overlay">
+
+                          <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
+                          <div class="social-link"  style="vertical-align: middle;display: inline-block;">
+                              <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
+                          </div>
+                      </div>
+                </div>
+                <div class="team-name">george clooney</div>
+                <div class="team-position">Designer</div>
+            </div>
+          
+              </div>
+    </section>
+
+
+        <!--<section class="key-feature section-padding color-white">
+        <div class="container">
+              <div class="main-title font-color-m-light">Features for Your Online Business</div>
+            <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+
+            <div class="col-5  padding-lr" >
+               <div class="col-12 feature-box" style="padding:5px 0px;">
+                   <div class="col-2 feature-icon"><i class="quickweb-icon-monitor"></i></div>
+                   <div class="col-10 content-box">
+                       <div class="feature-name">Resposive design</div>
+                        <div class="feature-content">Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</div>
+                       </div>
+                  
+               </div>
+
+                <div class="col-12 feature-box" style="padding:5px 0px;">
+                    
+                   <div class="col-2 feature-icon"><i class="quickweb-icon-chart-pie-1"></i></div>
+                 <div class="col-10 content-box">
+                       <div class="feature-name">Easy Customization</div>
+                        <div class="feature-content">Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</div>
+                       </div>
+               </div>
+
+                  <div class="col-12 feature-box" style="padding:5px 0px;">
+                   <div class="col-2 feature-icon"><i class="quickweb-icon-sliders"></i></div>
+                  <div class="col-10 content-box">
+                       <div class="feature-name">Step to Step Guide</div>
+                        <div class="feature-content">Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</div>
+                       </div>
+               </div>
+                <div class="col-12 feature-box" style="padding:5px 0px;">
+                   <div class="col-2 feature-icon"><i class="quickweb-icon-cloud-1"></i></div>
+                  <div class="col-10 content-box">
+                       <div class="feature-name">Secure and Reliable</div>
+                        <div class="feature-content">Cras tempus orci massa, id hendrerit mi egestas vitae class aptent taciti.</div>
+                       </div>
+               </div>
+
+            </div>
+            
+            <div class="col-7" style="">
+                <div class="col-12 feature-img center" style="">
+                <img src="image/monitor.png" /></div>
+            </div>
+        </div>
+    </section>-->
+    <section class="happy-client section-padding color-white" id="testimonial">
+        <div class="container">
+              <div class="main-title font-color-m-light">Our  Clients<i class="quickweb-icon-smile"></i>with us</div>
+            
+           
+            <div id="main_slider">
+                 <div class="thumb_slider" style="">
+            <div class="thumbs quote-box" style="padding:25px 0px;">
+                <p class="quote-text center"><i class="quickweb-icon-quote-left" style="padding:0px 15px;font-size: 22px;color:#7d7d7d;"></i>Donec vehicula, ante ut tristique mollis, quam quam mollis ipsum finibus leo urna nec purus nullam non justo a enim tristique euismod id id velit ut facilisis sem est, id sollicitudin massa.
+										<i class="quickweb-icon-quote-right" style="padding:0px 15px;font-size: 22px;color:#7d7d7d;"></i></p>
+                <h2 class="quote-company-name center" style="margin-top:25px">- Izzy azalea , Ceo Amp Group - </h2>
+                <h5 class="quote-company-position center"></h5>
+
+
+            </div>
+                     <div class="thumbs quote-box" style="padding:25px 0px;">
+                <p class="quote-text center"><i class="quickweb-icon-quote-left" style="padding:0px 15px;font-size: 22px;color:#7d7d7d;"></i>Donec vehicula, ante ut tristique mollis, quam quam mollis ipsum finibus leo urna nec purus nullam non justo a enim tristique euismod id id velit ut facilisis sem est, id sollicitudin massa.
+										<i class="quickweb-icon-quote-right" style="padding:0px 15px;font-size: 22px;color:#7d7d7d;"></i></p>
+                <h2 class="quote-company-name center" style="margin-top:25px">- Izzy azalea , Ceo Amp Group - </h2>
+                <h5 class="quote-company-position center"></h5>
+
+
+            </div>
+                     </div>
+                <div class="prev" style=""><i class="quickweb-icon-left-open-1"></i></div>
+                <div class="next" style=""><i class="quickweb-icon-right-open-1"></i></div>
+                
+                </div>
+        </div>
+    </section>
+
+    <section class="map color-light-white" id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387142.8401123931!2d-74.25819618221217!3d40.70583163620996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2s!4v1452786491975" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
+    
+    <section class="contact-address section-padding color-light-white">
+        <div class="container">
+        <div class="col-12">
+            <div class="contact-box col-4">
+                <div class="col-12 contact-icon"><i class="quickweb-icon-direction"></i></div> 
+                          <div class="col-12 contact-title">12 W 1st St 90001 Los Angeles , <br /> California</div>
+
+                      </div>
+                   <div class="contact-box col-4">
+                       <div class="col-12 contact-icon"><i class="quickweb-icon-phone"></i></div>
+                       <div class="col-12 contact-title">+1-800-41-49-23</div>
+
+                   </div> 
+                <div class="contact-box col-4">
+                     <div class="col-12 contact-icon"><i class="quickweb-icon-mail-alt"></i></div>
+                      <div class="col-12 contact-title">info@mzcreatives.com</div>
+                </div>
+
+            
+    </div></div>
+            </section>
+     
+    <section class="contact section-padding color-white">
+        <div class="container">
+            <div class="main-title font-color-m-light">Contact Us</div>
+            <p class="main-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam. </p>
+            <form action="MAILTO:gargk13@gmail.com"  method="post" enctype="text/plain">
+            <div class="col-12">
+                <div class="textbox-set col-12">
+                    <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Name*" id="name" /></div>
+                    <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Phone" /></div>
+                    <div class="col-12 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Email*" id="email" /></div>
+                    
+                    <div class="col-12 textbox-box padding-tblr"><textarea  class="col-12 textbox" placeholder="Message*" style="height:100px;padding:10px 0px;resize:none;" id="message" ></textarea></div>
+
+                    <div class="send padding-lr"><button id="send_email" value="Send" class="view-template" style="border:none;border-bottom: 2px solid #64A548;" onclick="getCheck()">Send</button></div>
+                </div>
+            </div>
+                </form> 
+            </div>
+        </section>
+
+        <section class="footer">
+            
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="col-12">
+                        <div class="col-6 mb-6" style="color:#606873">
+                            <div class="footer-menu" style="vertical-align:middle;">
+                                <div class="col-3 footer-menu-box-link">Home</div>
+                                 <div class="col-3 footer-menu-box-link">About Us </div>
+                                <div class="col-3 footer-menu-box-link">Privacy policy</div>
+                                <div class="col-3 footer-menu-box-link">Sitemap</div>
+                               
+                             </div>
+                        </div>
+                <div class="col-6 mb-6 social right"><div class="col-3"><i class="quickweb-icon-facebook"></i></div><div class="col-3"><i class="quickweb-icon-twitter"></i></div><div class="col-3"><i class="quickweb-icon-youtube"></i></div><div class="col-3"><i class="quickweb-icon-gplus-1"></i></div></div>
+                    </div>
+              <div class="col-12 creator" style="padding-top:25px;">
+                <div class="col-6 copyright">© 2016 All Rights Reserved by MZCreatives. </div>
+                <div class="col-6 design-by">
+                    <div class="col-8" style="color: #E5E5E5;font-weight: 100;font-size: 15px;">Made With <i class="quickweb-icon-heart" style="color:rgb(216, 24, 24);font-size:20px;"></i>By</div>
+                    <div class="col-4 footer-logo" >    <img src="image/iislogo.png" style="" /></div> </div>
+             </div>
+            </div>
+            </div>
+        </section>
+
+        </div>
+    <script type="text/javascript">
+        thumb_slider({
+
+            thumbs_to_show: 1,
+            thumbs_to_move: 1,
+            thumbs_width: 0,
+            thumbs_count: 0,
+            timeout: 10000,
+            parent_id: "main_slider",
+            container_class: "thumb_slider",
+            thumb_class: "thumbs",
+            spacing: 0,
+            processing: false,
+            hover: false,
+            next_class: "next",
+            prev_class: "prev",
+            timer: setTimeout(function () { })
+
+        });
+    </script>
 </body>
 </html>
 
