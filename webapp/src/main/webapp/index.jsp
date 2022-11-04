@@ -68,9 +68,9 @@
                             </div>
 
                         </div>-->
-                        <div class="menu-item-box center "><a href="#home" class="menu-link">Nixon</a></div>
-                        <div class="menu-item-box center "><a href="#about" class="menu-link">DevOps</a></div>
-                        <div class="menu-item-box center "><a href="#services" class="menu-link">Services</a></div>
+                        <div class="menu-item-box center "><a href="#home" class="menu-link">SCM</a></div>
+                        <div class="menu-item-box center "><a href="#about" class="menu-link">Ansible</a></div>
+                        <div class="menu-item-box center "><a href="#services" class="menu-link">Docker</a></div>
                         <div class="menu-item-box center "><a href="#services" class="menu-link">Team</a></div>
                         <div class="menu-item-box center "><a href="#portfolio" class="menu-link">Portfolio</a></div>
                         <div class="menu-item-box center "><a href="#testimonial" class="menu-link">Successful Docker</a></div>
