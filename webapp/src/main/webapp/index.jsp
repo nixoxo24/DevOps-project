@@ -68,8 +68,8 @@
                             </div>
 
                         </div>-->
-                        <div class="menu-item-box center "><a href="#home" class="menu-link">Home</a></div>
-                        <div class="menu-item-box center "><a href="#about" class="menu-link">About</a></div>
+                        <div class="menu-item-box center "><a href="#home" class="menu-link">Nixon</a></div>
+                        <div class="menu-item-box center "><a href="#about" class="menu-link">DevOps</a></div>
                         <div class="menu-item-box center "><a href="#services" class="menu-link">Services</a></div>
                         <div class="menu-item-box center "><a href="#services" class="menu-link">Team</a></div>
                         <div class="menu-item-box center "><a href="#portfolio" class="menu-link">Portfolio</a></div>
